@@ -1,0 +1,51 @@
+html, body {
+  font-size: 1em;
+  height: 100%; 
+  margin: 0;
+  background: #191919;
+  font-family: Arial, Verdana;
+  color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.topleft {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    right: 50%;
+}
+
+.topright {
+	position: absolute;
+    top: 50%;
+    right: 5%;
+}
+
+.bottomright {
+	position: absolute;
+    bottom: 2%;
+    right: 5%;
+    font-size: 0.4em;
+}
+
+.bg-img {
+	background-image: url("images/SelfPortrait.jpg");
+	height: 100%;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	position: absolute;
+	left: 1%;
+	right:1%;
+	top: 60%;
+	width: 100%;
+}
